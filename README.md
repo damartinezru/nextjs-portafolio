@@ -1,38 +1,34 @@
-# Portfolio Starter Kit
+# Portafolio Starter Kit
 
-This portfolio is built with **Next.js** and a library called [Nextra](https://nextra.vercel.app/). It allows you to write Markdown and focus on the _content_ of your portfolio. This starter includes:
+Este portfolio esta creado con Next.js y una libreria llamada Nextra. Te permite escribir Markdown y enfocarte en el contenido de tu portafolio. Este kit de inicio incluye:
 
-- Automatically configured to handle Markdown/MDX
-- Generates an RSS feed based on your posts
-- A beautiful theme included out of the box
-- Easily categorize posts with tags
-- Fast, optimized web font loading
+- Configurado automáticamente para manejar Markdown/MDX
+- Genera un feed RSS basado en tus publicaciones.
+- Un hermoso tema incluido.
+- Clasifique fácilmente publicaciones con etiquetas
+- Carga de fuentes web rápida y optimizada
 
 https://demo.vercel.blog
 
-## Configuration
+# Configuracion
 
-1. Update your name in `theme.config.js` or change the footer.
-1. Update your name and site URL for the RSS feed in `scripts/gen-rss.js`.
-1. Update the meta tags in `pages/_document.tsx`.
-1. Update the posts inside `pages/posts/*.md` with your own content.
+1. Actualice su nombre en theme.config.js o cambie el pie de página.
+2. Actualice su nombre y la URL del sitio para la fuente RSS en scripts/gen-rss.js.
+3. Actualice las metaetiquetas (meta-tags) en pages/_document.tsx.
+4. Actualice las publicaciones dentro de pages/posts/*.md con su propio contenido.
+5. Hazle deploy al tuyo propio
+6. Hazle deploy al ejemplo usando [Vercel](https://vercel.com/?utm_source=github&utm_medium=readme&utm_campaign=next-example) o obtenga una vista previa en vivo con [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/blog)
 
-## Deploy your own
+# Deploy con Vercel
+[![Deploy con Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog&project-name=portfolio&repository-name=portfolio)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/blog)
+# Como usar
+Ejecuta ```create-next-app``` con [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), o [pnpm](https://pnpm.io) para ver el ejemplo:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog&project-name=portfolio&repository-name=portfolio)
+```npx create-next-app --example blog my-blog```
+# o
+```yarn create next-app --example blog my-blog```
+# o
+```pnpm create next-app --example blog my-blog```
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example blog my-blog
-# or
-yarn create next-app --example blog my-blog
-# or
-pnpm create next-app --example blog my-blog
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Hazle Deploy a la nube con Vercel ([Documentacion](https://nextjs.org/docs/pages/building-your-application/deploying)).
