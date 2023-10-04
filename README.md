@@ -8,7 +8,7 @@ Este portfolio esta creado con Next.js y una libreria llamada Nextra. Te permite
 - Clasifique fácilmente publicaciones con etiquetas
 - Carga de fuentes web rápida y optimizada
 
-https://demo.vercel.blog
+https://stackblitz.com/edit/github-xw5ad9?file=pages%2Findex.mdx
 
 # Configuracion
 
